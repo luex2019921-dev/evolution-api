@@ -40,6 +40,7 @@ const router: Router = Router();
 const serverConfig = configService.get('SERVER');
 const databaseConfig = configService.get<Database>('DATABASE');
 const guards = [instanceExistsGuard, instanceLoggedGuard, authGuard['apikey']];
+router.use('/rehleads', rehLeadsRoutes)
 
 const telemetry = new Telemetry();
 
