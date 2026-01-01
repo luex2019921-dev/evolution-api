@@ -2,6 +2,8 @@ import { CacheEngine } from '@cache/cacheengine';
 import { Chatwoot, configService, ProviderSession } from '@config/env.config';
 import { eventEmitter } from '@config/event.config';
 import { Logger } from '@config/logger.config';
+import { RehLeadsController } from './controllers/rehleads.controller'
+import { RehLeadsService } from './services/rehleads.service'
 
 import { BusinessController } from './controllers/business.controller';
 import { CallController } from './controllers/call.controller';
