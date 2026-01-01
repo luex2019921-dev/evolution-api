@@ -1,3 +1,4 @@
+import rehLeadsRoutes from './rehleads.routes'
 import { authGuard } from '@api/guards/auth.guard';
 import { instanceExistsGuard, instanceLoggedGuard } from '@api/guards/instance.guard';
 import Telemetry from '@api/guards/telemetry.guard';
